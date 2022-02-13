@@ -1,0 +1,104 @@
+import img1 from "./pulse.PNG";
+import img2 from "./health.PNG";
+import React from "react";
+import("./Proj.css");
+export default function Proj(props) {
+  return (
+    <div id="project" className="proj">
+      <h1>My Recent Work</h1>
+      <div className="projCont">
+        <div className="final">
+          <div className="img">
+            <img src={img2} alt="" />
+          </div>
+          <div>
+            <h2>Bemz clone</h2>
+            <p>
+              Bemz.com is India's largest online IKEA furniture store for home
+              and office. Shop online from the latest collections of bed, sofa
+              and similar products featuring the best brands.
+            </p>
+            <h3>Tech Stack</h3>
+
+            <div className="tech">
+              <div>
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+              </div>
+              <div>
+                <i class="fab fa-css3"></i>
+                <p>CSS</p>
+              </div>
+              <div>
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <div className="buttons">
+              <a
+                href="https://hemantjayas.github.io/HealthKart/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Preview</button>
+              </a>
+              <a
+                href="https://github.com/hemantjayas/HealthKart"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="final">
+          <div className="img">
+            <img src={img1} alt="" />
+          </div>
+          <div>
+            <h2>Fabbag clone</h2>
+            <p>
+              Fabbag.com is a leading Online Cosmetics in India that offers
+              prescription cosmetics and its different products all over India.
+              Fabbag provide Cosmetics to us which ensure health to all the
+              individuals and chemicals free.
+            </p>
+            <h3>Tech Stack</h3>
+
+            <div className="tech">
+              <div>
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+              </div>
+              <div>
+                <i class="fab fa-css3"></i>
+                <p>CSS</p>
+              </div>
+              <div>
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <div className="buttons">
+              <a
+                href="https://hemantjayas.github.io/PulsePlus/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Preview</button>
+              </a>
+              <a
+                href="https://github.com/hemantjayas/PulsePlus"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
