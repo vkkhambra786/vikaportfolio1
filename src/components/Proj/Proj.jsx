@@ -43,7 +43,7 @@ export default function Proj(props) {
                 <button>Preview</button>
               </a>
               <a
-                href="https://github.com/hemantjayas/HealthKart"
+                href="https://github.com/vkkhambra786/BEMZ-1.git"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -89,7 +89,7 @@ export default function Proj(props) {
                 <button>Preview</button>
               </a>
               <a
-                href="https://github.com/hemantjayas/PulsePlus"
+                href="https://github.com/vkkhambra786/Fagbag.com.git"
                 target="_blank"
                 rel="noreferrer"
               >
