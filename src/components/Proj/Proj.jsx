@@ -130,7 +130,7 @@ export default function Proj(props) {
             </div>
             <div className="buttons">
               <a
-                href="https://github.com/mm-asraf/Tanishq-Web-Clone.git"
+                href="https://tanishq-web-clone.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
