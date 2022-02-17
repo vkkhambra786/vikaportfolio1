@@ -1,5 +1,6 @@
 import img1 from "./pulse.PNG";
 import img2 from "./health.PNG";
+import img3 from "./tanshiq.PNG";
 import React from "react";
 import("./Proj.css");
 export default function Proj(props) {
@@ -52,6 +53,7 @@ export default function Proj(props) {
             </div>
           </div>
         </div>
+
         <div className="final">
           <div className="img">
             <img src={img1} alt="" />
@@ -90,6 +92,52 @@ export default function Proj(props) {
               </a>
               <a
                 href="https://github.com/vkkhambra786/Fagbag.com.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="final">
+          <div className="img">
+            <img src={img3} alt="" />
+          </div>
+          <div>
+            <h2> Tanshiq clone</h2>
+            <p>
+              Tanishq is an Indian Jewellery brand and a division of Titan
+              Company. It is an E-Commerce Website Clone Where Users can order
+              Jewellery Items through this website.
+            </p>
+            <h3>Tech Stack</h3>
+
+            <div className="tech">
+              <div>
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+              </div>
+              <div>
+                <i class="fab fa-css3"></i>
+                <p>CSS</p>
+              </div>
+              <div>
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <div className="buttons">
+              <a
+                href="https://github.com/mm-asraf/Tanishq-Web-Clone.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Preview</button>
+              </a>
+              <a
+                href="https://github.com/mm-asraf/Tanishq-Web-Clone.git"
                 target="_blank"
                 rel="noreferrer"
               >
