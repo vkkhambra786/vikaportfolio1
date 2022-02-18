@@ -6,7 +6,7 @@ import("./Proj.css");
 export default function Proj(props) {
   return (
     <div id="project" className="proj">
-      <h1>My Recent Work</h1>
+      <h1 className="h14">My Recent Work</h1>
       <div className="projCont">
         <div className="final">
           <div className="img">

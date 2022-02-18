@@ -36,7 +36,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="copyright">
-        No © copyright issues | Designed and developed by Vikas Khambra
+        No © copyright issues | Inspired by Hemant
       </div>
     </>
   );
