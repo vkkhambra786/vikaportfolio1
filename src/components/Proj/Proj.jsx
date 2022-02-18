@@ -37,7 +37,7 @@ export default function Proj(props) {
             </div>
             <div className="buttons">
               <a
-                href="https://github.com/vkkhambra786/BEMZ-1.git"
+                href="https://bemz-1.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -84,7 +84,7 @@ export default function Proj(props) {
             </div>
             <div className="buttons">
               <a
-                href="https://github.com/vkkhambra786/Fagbag.com.git"
+                href="https://fagbag-com.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
