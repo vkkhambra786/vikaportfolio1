@@ -21,10 +21,10 @@ export default function Navbar() {
           <li>About</li>
         </Link>
         <Link to="skill" smooth={true} duration={500}>
-          <li>Skill</li>
+          <li>Skills</li>
         </Link>
         <Link to="project" smooth={true} duration={500}>
-          <li>Project</li>
+          <li>Projects</li>
         </Link>
         <Link to="contact" smooth={true} duration={500}>
           <li>Contact</li>
