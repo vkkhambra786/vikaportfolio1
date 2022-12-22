@@ -1,4 +1,4 @@
-import img from "./hemant.jpeg";
+import img from "./hemant.jpg";
 import React from "react";
 import "./Home.css";
 export default function Home() {
