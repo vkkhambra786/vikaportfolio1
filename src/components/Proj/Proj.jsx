@@ -1,4 +1,5 @@
-import img1 from "./pulse.PNG";
+//import img1 from "./pulse.PNG";
+import img1 from "./chatp.PNG";
 import img2 from "./tictacttoe.PNG";
 import img3 from "./tanshiq.PNG";
 import img4 from "./todopep1.PNG";
@@ -10,6 +11,60 @@ export default function Proj(props) {
     <div id="project" className="proj">
       <h1 className="h14">My Recent Work</h1>
       <div className="projCont">
+        <div className="final">
+          <div className="img">
+            <img src={img1} alt="" />
+          </div>
+          <div>
+            <h2>Chat Application</h2>
+            <p>
+              Developed a real-time chat application using modern web
+              technologies to facilitate instant communication between users.
+              The application focuses on one-on-one messaging, providing users
+              with a seamless platform to connect individually.
+            </p>
+            <h3>Tech Stack</h3>
+
+            <div className="tech">
+              <div>
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+              </div>
+              <div>
+                <i class="fab fa-css3"></i>
+                <p>CSS</p>
+              </div>
+              <div>
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+              </div>
+              <div>
+                <i class="fab fa-react"></i>
+                <p>ReactJs</p>
+              </div>
+              <div>
+                <i class="fab fa-node"></i>
+                <p>NodeJs</p>
+              </div>
+            </div>
+            <div className="buttons">
+              <a
+                href="https://chatappproduction1.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Preview</button>
+              </a>
+              <a
+                href="https://github.com/vkkhambra786/ChatApp.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>Code</button>
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="final">
           <div className="img">
             <img src={img2} alt="" />
@@ -159,52 +214,6 @@ export default function Proj(props) {
           </div>
         </div>
 
-        <div className="final">
-          <div className="img">
-            <img src={img1} alt="" />
-          </div>
-          <div>
-            <h2>Fabbag clone</h2>
-            <p>
-              Fabbag.com is a leading Online Cosmetics in India that offers
-              prescription cosmetics and its different products all over India.
-              Fabbag provide Cosmetics to us which ensure health to all the
-              individuals and chemicals free.
-            </p>
-            <h3>Tech Stack</h3>
-
-            <div className="tech">
-              <div>
-                <i class="fab fa-html5"></i>
-                <p>HTML</p>
-              </div>
-              <div>
-                <i class="fab fa-css3"></i>
-                <p>CSS</p>
-              </div>
-              <div>
-                <i class="fab fa-js"></i>
-                <p>JavaScript</p>
-              </div>
-            </div>
-            <div className="buttons">
-              <a
-                href="https://fagbag-com.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button>Preview</button>
-              </a>
-              <a
-                href="https://github.com/vkkhambra786/Fagbag.com.git"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button>Code</button>
-              </a>
-            </div>
-          </div>
-        </div>
         <div className="final">
           <div className="img">
             <img src={img3} alt="" />
